@@ -13,7 +13,7 @@ import {
 } from "./style";
 import PenteTesoura from "../../assets/icons/PenteTesoura-icon.svg";
 import MaquinaBarbear from "../../assets/icons/maquinaBarbear-icon.svg";
-import Pente from "../../assets/icons/Pente-icon.svg";
+import Pente from "../../assets/icons/pente-icon.svg";
 import Navalha from "../../assets/icons/navalha-icon.svg";
 import { ButtonAgendarHorario } from "./../ButtonAgendarHorario/index";
 import { Link } from "react-router-dom";
