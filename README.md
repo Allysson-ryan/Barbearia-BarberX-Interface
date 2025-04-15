@@ -58,8 +58,10 @@ Este repositório contém o frontend do BarberX, uma aplicação moderna para ba
 
 ### Interface do Cliente:
 
-![screenshot](../frontend/src/assets/screenshotInterface.png)
+![screenshot](/frontend/src/assets/screenshotInterface.png)
+
+<br><br/>
 
 ### Painel Administrativo:
 
-![screenshot](../admin/src/assets/AdminFoto.png)
+![screenshot](/adminInterface/src/assets/AdminFoto.png)
