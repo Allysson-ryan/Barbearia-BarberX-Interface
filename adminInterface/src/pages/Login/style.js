@@ -14,6 +14,10 @@ export const BoxInput = styled.div`
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   width: 25rem;
   padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 `;
 
 export const Title = styled.h1`
@@ -62,5 +66,44 @@ export const LoginRedirect = styled.div`
 
   p {
     font-size: 13px;
+  }
+`;
+
+export const InformationLogin = styled.div`
+  width: 12rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid ${(props) => props.theme.darkVanila};
+  border-radius: 10px;
+  margin-top: 20px;
+`;
+
+export const TitleInformationLogin = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 4px;
+
+  h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: ${(props) => props.theme.darkVanila};
+  }
+`;
+
+export const BoxInformation = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h4 {
+    font-size: 13px;
+    font-weight: 600;
+    color: ${(props) => props.theme.darkVanila};
   }
 `;

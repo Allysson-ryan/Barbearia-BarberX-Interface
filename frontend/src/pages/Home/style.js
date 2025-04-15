@@ -179,6 +179,14 @@ export const BarberImageSection = styled.div`
   @media (max-width: 615px) {
     height: 210px;
   }
+
+  @media (max-width: 545px) {
+    height: 185px;
+  }
+
+  @media (max-width: 485px) {
+    height: 160px;
+  }
 `;
 
 export const SentenceBarberImageSection = styled.h1`
@@ -204,8 +212,28 @@ export const SentenceBarberImageSection = styled.h1`
     font-size: 55px;
   }
 
-  @media (max-width: 1040px) {
+  @media (max-width: 1055px) {
     font-size: 45px;
+  }
+
+  @media (max-width: 885px) {
+    font-size: 40px;
+  }
+
+  @media (max-width: 780px) {
+    font-size: 35px;
+  }
+
+  @media (max-width: 675px) {
+    font-size: 30px;
+  }
+
+  @media (max-width: 585px) {
+    font-size: 25px;
+  }
+
+  @media (max-width: 380px) {
+    font-size: 20px;
   }
 `;
 

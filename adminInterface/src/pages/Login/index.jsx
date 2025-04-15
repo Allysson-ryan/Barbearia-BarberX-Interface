@@ -10,9 +10,13 @@ import {
   BoxButton,
   Button,
   LoginRedirect,
+  InformationLogin,
+  TitleInformationLogin,
+  BoxInformation,
 } from "./style";
 import { Link } from "react-router-dom";
 import { useAuth } from "../../Context/useAuth";
+import { Info } from "@phosphor-icons/react";
 
 export function Login() {
   const { login } = useAuth();
@@ -95,6 +99,16 @@ export function Login() {
               </p>
             </LoginRedirect>
           </Form>
+          <InformationLogin>
+            <TitleInformationLogin>
+              <Info size={17} color="#b09a7b" />
+              <h3>Para teste</h3>
+            </TitleInformationLogin>
+            <BoxInformation>
+              <h4>Nome: teste admin</h4>
+              <h4>Senha: 123456</h4>
+            </BoxInformation>
+          </InformationLogin>
         </BoxInput>
       </Container>
     </>

@@ -1,18 +1,25 @@
 import LicensedIcon from "../../assets/icons/licensed icon.svg";
 import MastersIcon from "../../assets/icons/masters icon.svg";
 import TrustedIcon from "../../assets/icons/trusted icon.svg";
-import { Container, InfoContent, InfoSection, TitleBox } from "./style";
+import {
+  Container,
+  InfoContent,
+  InfoSection,
+  TitleBox,
+  Title,
+  Subtitle,
+} from "./style";
 
 export function WhyChooseUs() {
   return (
     <Container>
       <TitleBox>
-        <h1>PORQUE ESCOLHER-NOS</h1>
-        <p>
+        <Title>PORQUE ESCOLHER-NOS</Title>
+        <Subtitle>
           Escolher-nos é garantir um atendimento personalizado, com
           profissionais experientes e um ambiente acolhedor, tudo para atender
           suas necessidades e realçar seu estilo.
-        </p>
+        </Subtitle>
       </TitleBox>
 
       <InfoSection>
