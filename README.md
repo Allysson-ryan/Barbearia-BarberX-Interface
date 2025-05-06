@@ -8,6 +8,11 @@ Deploy BarberX Admin: https://admin-barberx.netlify.app/entrar
 <br></br>
 Backend: https://github.com/Allysson-ryan/Barbearia-BarberX-Backend
 
+## 📦 Estrutura
+
+- `frontend/` → Interface pública para clientes
+- `admin/` → Painel administrativo
+
 ## ✨ Funcionalidades
 
 ### Cliente (Frontend)
@@ -45,7 +50,7 @@ Backend: https://github.com/Allysson-ryan/Barbearia-BarberX-Backend
 
 ## 💻 Tecnologias
 
-- React 19
+- ReactJs
 - Vite
 - React Router DOM
 - Mantine UI + Material UI (MUI)
@@ -54,11 +59,6 @@ Backend: https://github.com/Allysson-ryan/Barbearia-BarberX-Backend
 - Axios
 - JWT Decode
 - Day.js
-
-## 📦 Estrutura
-
-- `frontend/` → Interface pública para clientes
-- `admin/` → Painel administrativo
 
 ## Screenshot
 
