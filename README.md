@@ -63,11 +63,9 @@ Backend: https://github.com/Allysson-ryan/Barbearia-BarberX-Backend
 ## Screenshot
 
 ### Interface do Cliente:
-
 ![screenshot](/frontend/src/assets/screenshotInterface.png)
 
 <br><br/>
 
 ### Painel Administrativo:
-
 ![screenshot](/adminInterface/src/assets/AdminFoto.png)
