@@ -3,6 +3,7 @@
 Este repositório contém o frontend do BarberX, uma aplicação moderna para barbearias que desejam oferecer uma experiência digital de agendamento de serviços, com uma interface intuitiva tanto para clientes quanto para administradores.
 
 Deploy BarberX Cliente: https://barberx-cliente.netlify.app/
+
 Deploy BarberX Admin: https://admin-barberx.netlify.app/entrar
 <br></br>
 Backend: https://github.com/Allysson-ryan/Barbearia-BarberX-Backend
